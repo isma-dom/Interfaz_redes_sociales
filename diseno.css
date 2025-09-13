@@ -1,0 +1,58 @@
+.color_fondo {
+  background-color: darkslategrey;
+}
+
+.contenedor_redes{
+  display: flex;              /* activa flexbox */
+      flex-direction: column;     /* organiza los elementos en columna */
+      justify-content: center;    /* centra verticalmente */
+      align-items: center;        /* centra horizontalmente */
+      margin: 200px;
+      margin-left: 400px;
+      border: 10px solid black;
+      width: 400px;
+      height: 750px;
+      background-color: beige; 
+      border-radius: 100px;
+      justify-content: flex-start; /* empieza desde arriba */
+    
+}
+
+
+
+.imagen{
+  
+  width: 150px;          /* ancho fijo */
+  height: 150px;         /* alto fijo */
+  border-radius: 50%;    /* lo convierte en círculo */
+  object-fit: cover;     /* evita que se deforme */
+  margin-top: 30px;      /* separa del borde superior del div */
+  
+}
+
+.botones{
+ border: 15px solid darkslategray;
+  background-color: darkslategray;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 5px;
+  margin-bottom: 30px;
+  display: block;
+  border-radius: 40px;
+  color: black;
+  font-weight: bold; /*poner en negritas un texto*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: none;
+
+}
+.botones:hover{
+  background-color: aliceblue;
+  border: 15px solid aliceblue;
+}
+
+.icono{
+  margin-right: 30px;
+  font-size: 20px;
+  
+}
